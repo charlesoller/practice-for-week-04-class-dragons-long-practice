@@ -18,9 +18,4 @@ class FriendlyDragon extends Dragon {
     }
 }
 
-const test = new FriendlyDragon('Jim', 'Blue', ['a', 'b', 'c'])
-test.hasLifeGoals();
-
 module.exports = FriendlyDragon;
-
-
